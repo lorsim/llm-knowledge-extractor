@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+dist/
+coverage/
+.vitest/
+
+# Env & secrets
+.env
+.env.local
+
+# Local SQLite database
+analyses.db
+analyses.db-shm
+analyses.db-wal
+
+# Logs
+*.log
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# GitHub specific
+*.tgz

@@ -1,0 +1,30 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist
+coverage
+.vitest
+
+# Local SQLite database
+analyses.db
+analyses.db-shm
+analyses.db-wal
+
+# Environment & config
+.env
+.env.local
+
+# OS / Editor files
+*.log
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Git
+.git
+.gitignore
